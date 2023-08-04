@@ -1,5 +1,5 @@
 ## Components with many state updates spread across many event handlers can get overwhelming. For these cases, you can consolidate all the state update logic outside your component in a single function, called a reducer.
-## A reducer function is where you will put your state logic. It takes two arguments, the current state and the action object, and it returns the next state: 
+## A reducer function is where you put state logic. It takes two arguments, the current state and the action object, and it returns the next state: 
 ## function yourReducer(state, action) {
 ##  // return next state for React to set
 ## }
